@@ -1,0 +1,20 @@
+{
+  "name": "@testlio/cloudsearch-query-builder",
+  "version": "1.0.0",
+  "description": "Builds string queries for cloudsearch",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "cloudsearch",
+    "query"
+  ],
+  "author": "dev@testlio.com",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "eslint": "^2.0.0"
+  }
+}
