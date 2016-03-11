@@ -32,6 +32,18 @@ builder.and([builder.term('Harrison Ford', 'actors'), builder.phrase('star wars'
 // -> (and (term field=actors 'Harrison Ford') (phrase field=title 'star wars'))
 ```
 
+With certain operators, you can also omit the field to search over all textual fields, for example:
+
+```js
+// Search for all films that contain term 'star' in any of their textual fields
+builder.term('star');
+// -> (term 'star')
+
+// Search for all films released after year 2000 that mention Harrison Ford
+builder.and([builder.phrase('Harrison Ford'), builder.range('year', 2000)]);
+// -> (and (term 'star') (range field=year [2000,}))
+```
+
 The full API is documented inline, you can go over it [here](index.js).
 
 ## Interfacing with AWS SDK
