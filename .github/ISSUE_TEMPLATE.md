@@ -1,4 +1,4 @@
-_Before submitting a new issue, make sure no suitable duplicate exists - thank you!_
+_Before submitting a new issue, make sure no existing duplicate exists - thank you!_
 
 **Type:**
 <:bug: | :new:, pick one>
