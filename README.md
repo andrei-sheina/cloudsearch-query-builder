@@ -1,6 +1,6 @@
 # CloudSearch Query Builder
 
-[![Circle CI](https://circleci.com/gh/Testlio/cloudsearch-query-builder.svg?style=svg&circle-token=d54ae21cd46be4af9e25e907ae030dbfc8c3cdff)](https://circleci.com/gh/Testlio/cloudsearch-query-builder)
+[![Circle CI](https://img.shields.io/circleci/project/Testlio/cloudsearch-query-builder.svg)](https://circleci.com/gh/Testlio/cloudsearch-query-builder) [![NPM Package](https://img.shields.io/npm/v/@testlio/cloudsearch-query-builder.svg)](https://www.npmjs.com/package/@testlio/cloudsearch-query-builder)
 
 AWS CloudSearch supports searching over data/documents by using query strings, these query strings can contain compound query in a specific format/syntax. While this syntax is [well documented](http://docs.aws.amazon.com/cloudsearch/latest/developerguide/searching-compound-queries.html), creating this string in code can be error-prone. This is where query builder comes in, allowing queries to be built using a more functional approach, and ensuring the resulting string is in the correct format.
 
