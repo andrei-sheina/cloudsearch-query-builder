@@ -10,7 +10,10 @@
   },
   "keywords": [
     "cloudsearch",
-    "query"
+    "query",
+    "builder",
+    "testlio",
+    "aws"
   ],
   "author": "dev@testlio.com",
   "license": "ISC",
