@@ -1,6 +1,7 @@
 'use strict';
 
 function quote(value) {
+    value = value.replace(/[\\']/g, '\\$&').replace(/["]/g, '');
     if (typeof value === 'string') {
         return `'${value}'`;
     }
