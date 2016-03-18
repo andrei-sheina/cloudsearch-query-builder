@@ -2,7 +2,10 @@
 
 function quote(value) {
     if (typeof value === 'string') {
-        value = value.replace(/[\\']/g, '\\$&').replace(/["]/g, '');
+        // Escape all backslashes and single quotes (assume the parameter
+        // was completely unescaped, so escape all). Also remove double
+        // quotes as CS is fussy about them in values in structured queries
+        value = value.replace(/[\\']/g, '\\$&').replace('"', '');
         return `'${value}'`;
     }
 
