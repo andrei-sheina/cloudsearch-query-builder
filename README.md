@@ -67,7 +67,7 @@ cloudSearchDomain.search({
 });
 ```
 
-**NOTE:** Because of the CloudSearch limitations query builder removes the double quotes from the search parameters.
+**NOTE:** Because of the CloudSearch limitations, query builder removes double quotes from the search parameters.
 
 ## Contributing
 
