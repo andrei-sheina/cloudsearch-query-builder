@@ -2,7 +2,7 @@
   "name": "@testlio/cloudsearch-query-builder",
   "version": "1.0.3",
   "description": "Builds string queries for cloudsearch",
-  "main": "index.js",
+  "main": "index-compiled.js",
   "scripts": {
     "test": "mocha",
     "lint": "eslint .",
